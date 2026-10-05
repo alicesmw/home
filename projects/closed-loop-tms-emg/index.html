@@ -1,0 +1,200 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title> Closed-loop TMS–EMG | Alice Wong </title> <meta name="author" content="Alice Wong"> <meta name="description" content="Building a low-latency, self-initiated brain stimulation setup — and using it to make people disown their own movements."> <meta name="keywords" content="Alice Wong, sense of agency, consciousness, TMS, EMG, philosophy of AI, cognitive neuroscience, psychedelics, University of Hong Kong"> <meta property="og:site_name" content="Alice Wong"> <meta property="og:type" content="website"> <meta property="og:title" content="Alice Wong | Closed-loop TMS–EMG"> <meta property="og:url" content="https://alicewong.org/projects/closed-loop-tms-emg/"> <meta property="og:description" content="Building a low-latency, self-initiated brain stimulation setup — and using it to make people disown their own movements."> <meta property="og:locale" content="en"> <meta name="twitter:card" content="summary"> <meta name="twitter:title" content="Closed-loop TMS–EMG"> <meta name="twitter:description" content="Building a low-latency, self-initiated brain stimulation setup — and using it to make people disown their own movements."> <script type="application/ld+json">
+    {
+        "author":
+        {
+            "@type": "Person",
+            "name": "Alice Wong"
+        },
+        "url": "https://alicewong.org/projects/closed-loop-tms-emg/",
+        "@type": "WebSite",
+        "description": "Building a low-latency, self-initiated brain stimulation setup — and using it to make people disown their own movements.",
+        "headline": "Closed-loop TMS–EMG",
+        
+        "sameAs": [null,"https://www.linkedin.com/in/alicesmwong","https://github.com/alicesmw"],
+        
+        "name": "Alice Wong",
+        "@context": "https://schema.org"
+    }
+  </script> <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; font-src 'self' data: https:; media-src 'self' https:; frame-src 'self' https:; connect-src 'self' https:;"> <style>
+  :root {
+    --max-content-width: 930px;
+  }
+</style> <link rel="stylesheet" href="/assets/css/tailwind.css?v=50c64c15cbb9fd1ce6056fdb8bcb4b62"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.2.0/css/all.min.css" integrity="sha256-MVopmdyC2tYTiJ8wlktf0uh0v4NgT+vNdyVFepi7Q0c=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.5/css/academicons.min.css" integrity="sha256-SzrCOBJbGVFMahewkgjwnApaV2+av1DwMAA+/QGLyZw=" crossorigin="anonymous"> <link defer rel="stylesheet" href="https://cdn.jsdelivr.net/npm/scholar-icons@1.0.3/css/scholar-icons.css" integrity="sha256-VY3hHVj/hNX3fYG6wtbA6TcKJQl7+FthzGSyIB64klY=" crossorigin="anonymous"> <link defer rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&amp;display=swap"> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-github.css?v=591dab5a4e56573bf4ef7fd332894c99" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%A7%A0&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css?v=3116ba77db9ee1581d05bb3e86fbf7f1"> <link rel="canonical" href="https://alicewong.org/projects/closed-loop-tms-emg/"> <script src="/assets/js/theme.js?v=5286c3e4c334d0ecb8fc0c40ff4fa7ec"></script> <link defer rel="stylesheet" href="/assets/css/jekyll-pygments-themes-native.css?v=5847e5ed4a4568527aa6cfab446049ca" media="none" id="highlight_theme_dark"> <script>
+    initTheme();
+  </script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" role="navigation"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"> <span class="font-weight-bold">Alice</span> Wong </a> <button class="navbar-toggler collapsed navbar-toggler-main" type="button" data-nav-toggle="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav"> <ul class="navbar-nav navbar-menu-list flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about </a> </li> <li class="nav-item "> <a class="nav-link" href="/publications/">publications </a> </li> <li class="nav-item active"> <a class="nav-link" href="/projects/">projects <span class="sr-only">(current)</span> </a> </li> <li class="nav-item "> <a class="nav-link" href="/teaching/">teaching </a> </li> <li class="nav-item "> <a class="nav-link" href="/cv/">CV </a> </li> <li class="nav-item"> <button id="search-toggle" type="button" title="Search" aria-label="Open search"> <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span> </button> </li> <li class="toggle-container"> <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme"> <i class="fa-half-sun-moon" id="light-toggle-system"></i> <i class="fa-solid fa-moon" id="light-toggle-dark"></i> <i class="fa-solid fa-sun" id="light-toggle-light"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5" role="main"> <div class="post"> <header class="post-header"> <h1 class="post-title">Closed-loop TMS–EMG</h1> <p class="post-description">Building a low-latency, self-initiated brain stimulation setup — and using it to make people disown their own movements.</p> </header> <article> <p>Voluntary action feels seamless: you decide to move, you move, and the movement is unmistakably yours. This project was an attempt to pull that feeling apart experimentally.</p> <p>Between 2019 and 2021 I worked closely with a biomedical engineer to build a <strong>low-latency, real-time, closed-loop, self-initiated non-invasive brain stimulation setup</strong>. The system watches electromyography (EMG) from the hand, detects the earliest signature of a self-initiated movement, and fires a transcranial magnetic stimulation (TMS) pulse fast enough to evoke a movement around the moment the participant was about to move anyway. I designed the experimental setup, collected data from <strong>60+ participants</strong>, and analysed the resulting psychological and physiological signals.</p> <p>The payoff is a rare experimental handle on the sense of agency. When the stimulation-evoked movement lands in the right window, participants will report that the movement was not theirs — a <strong>denial of agency</strong> over a movement their own muscles just executed.</p> <h3 id="in-the-media">In the media</h3> <p>The setup is featured on <em>PBS NOVA</em>. The clip below is cued to the segment:</p> <div class="row mt-3"> <div class="col-sm mt-3 mt-md-0"> <figure> <iframe src="https://www.youtube.com/embed/yQ6VOOd73MA?start=2274" class="img-fluid rounded z-depth-1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="" width="auto" height="auto"></iframe> </figure> </div> </div> <div class="caption"> The closed-loop TMS–EMG paradigm as featured on PBS NOVA. </div> <h3 id="outputs">Outputs</h3> <p>This work is written up in the manuscript <em>It wasn’t me! Inducing denials of agency with a closed-loop TMS–EMG paradigm</em> <a class="citation" href="#wong2026denials">(Wong et al., 2026)</a>, and was presented at the Association for the Scientific Study of Consciousness <a class="citation" href="#wong2022assc">(Wong et al., 2022)</a> and the Society for Neuroscience <a class="citation" href="#wong2022sfn">(Wong et al., 2022)</a>. The broader question of how to time mental events relative to action is taken up in <a class="citation" href="#lee2022timing">(Lee et al., 2022)</a>, and the full argument forms the core of my doctoral thesis <a class="citation" href="#wong2022thesis">(Wong, 2022)</a>.</p> </article> <h2>References</h2> <div class="publications"> <h2 class="bibliography">2026</h2> <ol class="bibliography"><li> <div class="row"> <div class="col col-sm-2 abbr"> <abbr class="badge rounded w-100" style="background-color:#a15c00"> <div>In prep.</div> </abbr> </div> <div id="wong2026denials" class="col-sm-8"> <div class="title">It wasn’t me! Inducing denials of agency with a closed-loop TMS–EMG paradigm</div> <div class="author"> <em>A. Wong</em>, T. Lan, D. Wu, and <span class="more-authors" title="click to view 2 more authors" onclick=" var element=this; element.setAttribute('title', ''); var more_authors_text=element.textContent == '2 more authors' ? 'A. Schurger, U. Maoz' : '2 more authors'; var cursorPosition=0; var textAdder=setInterval(function(){ element.innerHTML = more_authors_text.substring(0, cursorPosition + 1); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">2 more authors</span> </div> <div class="periodical"> . The closed-loop TMS–EMG setup behind this work is featured on <em>PBS NOVA</em> , 2026 </div> <div class="periodical"> Manuscript in preparation </div> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="https://www.youtube-nocookie.com/embed/yQ6VOOd73MA?start=2274" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Video</a> </div> <div class="abstract hidden"> <p>A closed-loop transcranial magnetic stimulation and electromyography paradigm that delivers a stimulation-evoked movement time-locked to a participant’s own self-initiated action, allowing the sense of agency over an executed movement to be disrupted and denied.</p> </div> </div> </div> </li></ol> <h2 class="bibliography">2022</h2> <ol class="bibliography"> <li> <div class="row"> <div class="col col-sm-2 abbr"> <abbr class="badge rounded w-100" style="background-color:#3f6184"> <div>Talk</div> </abbr> </div> <div id="wong2022assc" class="col-sm-8"> <div class="title">Disrupting the sense of agency via closed-loop TMS–EMG</div> <div class="author"> <em>A. Wong</em>, T. Lan, D.-A. Wu, and <span class="more-authors" title="click to view 2 more authors" onclick=" var element=this; element.setAttribute('title', ''); var more_authors_text=element.textContent == '2 more authors' ? 'A. Schurger, U. Maoz' : '2 more authors'; var cursorPosition=0; var textAdder=setInterval(function(){ element.innerHTML = more_authors_text.substring(0, cursorPosition + 1); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">2 more authors</span> </div> <div class="periodical"> 2022 </div> <div class="periodical"> </div> <div class="links"> </div> </div> </div> </li> <li> <div class="row"> <div class="col col-sm-2 abbr"> <abbr class="badge rounded w-100" style="background-color:#7a3b8f"> <a href="https://www.sfn.org/" rel="external nofollow noopener" target="_blank">SfN</a> </abbr> </div> <div id="wong2022sfn" class="col-sm-8"> <div class="title">Dissociating action execution from consciousness of action execution: A closed-loop TMS–EMG study</div> <div class="author"> <em>A. Wong</em>, T. Lan, D. Wu, and <span class="more-authors" title="click to view 2 more authors" onclick=" var element=this; element.setAttribute('title', ''); var more_authors_text=element.textContent == '2 more authors' ? 'A. Schurger, U. Maoz' : '2 more authors'; var cursorPosition=0; var textAdder=setInterval(function(){ element.innerHTML = more_authors_text.substring(0, cursorPosition + 1); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">2 more authors</span> </div> <div class="periodical"> <em>In 48th Annual Meeting of the Society for Neuroscience</em>, 2022 </div> <div class="periodical"> </div> <div class="links"> </div> </div> </div> </li> <li> <div class="row"> <div class="col col-sm-2 abbr"> <abbr class="badge rounded w-100" style="background-color:#002147"> <a href="https://global.oup.com/academic/" rel="external nofollow noopener" target="_blank">OUP</a> </abbr> </div> <div id="lee2022timing" class="col-sm-8"> <div class="title">How can we determine the precise timing of mental events related to action?</div> <div class="author"> S. J. Lee, <em>A. Wong</em>, <a href="https://www.chapman.edu/our-faculty/uri-maoz" rel="external nofollow noopener" target="_blank">U. Maoz</a>, and <span class="more-authors" title="click to view 1 more author" onclick=" var element=this; element.setAttribute('title', ''); var more_authors_text=element.textContent == '1 more author' ? 'M. Hallett' : '1 more author'; var cursorPosition=0; var textAdder=setInterval(function(){ element.innerHTML = more_authors_text.substring(0, cursorPosition + 1); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">1 more author</span> </div> <div class="periodical"> <em>In Free Will</em>, 2022 </div> <div class="periodical"> </div> <div class="links"> <a href="https://doi.org/10.1093/oso/9780197572153.003.0028" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">DOI</a> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> <a href="https://doi.org/10.1093/oso/9780197572153.003.0028" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@incollection</span><span class="p">{</span><span class="nl">lee2022timing</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{How can we determine the precise timing of mental events related to action?}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Lee, S. J. and Wong, A. and Maoz, U. and Hallett, M.}</span><span class="p">,</span>
+  <span class="na">booktitle</span> <span class="p">=</span> <span class="s">{Free Will}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+  <span class="na">publisher</span> <span class="p">=</span> <span class="s">{Oxford University Press}</span><span class="p">,</span>
+  <span class="na">doi</span> <span class="p">=</span> <span class="s">{10.1093/oso/9780197572153.003.0028}</span><span class="p">,</span>
+  <span class="na">url</span> <span class="p">=</span> <span class="s">{https://doi.org/10.1093/oso/9780197572153.003.0028}</span><span class="p">,</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> <li> <div class="row"> <div class="col col-sm-2 abbr"> <abbr class="badge rounded w-100" style="background-color:#5c5c5c"> <div>Thesis</div> </abbr> </div> <div id="wong2022thesis" class="col-sm-8"> <div class="title">Probing the boundaries of human agency</div> <div class="author"> <em>A. Wong</em> </div> <div class="periodical"> Dec 2022 </div> <div class="periodical"> </div> <div class="links"> <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a> </div> <div class="bibtex hidden"> <figure class="highlight"><pre><code class="language-bibtex" data-lang="bibtex"><span class="nc">@phdthesis</span><span class="p">{</span><span class="nl">wong2022thesis</span><span class="p">,</span>
+  <span class="na">title</span> <span class="p">=</span> <span class="s">{Probing the boundaries of human agency}</span><span class="p">,</span>
+  <span class="na">author</span> <span class="p">=</span> <span class="s">{Wong, A.}</span><span class="p">,</span>
+  <span class="na">school</span> <span class="p">=</span> <span class="s">{Chapman University}</span><span class="p">,</span>
+  <span class="na">year</span> <span class="p">=</span> <span class="s">{2022}</span><span class="p">,</span>
+  <span class="na">month</span> <span class="p">=</span> <span class="nv">dec</span><span class="p">,</span>
+  <span class="na">type</span> <span class="p">=</span> <span class="s">{PhD thesis}</span>
+<span class="p">}</span></code></pre></figure> </div> </div> </div> </li> </ol> </div> </div> </div> <footer class="fixed-bottom" role="contentinfo"> <div class="container mt-0"> © Copyright 2026 Alice Wong. © Alice Wong. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with the <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme, hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>. </div> </footer> <script>
+  window.alFolio = {
+    compatBootstrap: false
+  };
+</script> <script src="/assets/js/nav-toggle.js?v=141bd79a73ebc0f0b6ea58e440ae79fc"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script> <script defer src="/assets/js/masonry.js?v=e49affc7bd2646f6acdad1dbe02c2359" type="text/javascript"></script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.js" integrity="sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI=" crossorigin="anonymous"></script> <script src="/assets/al_math/js/mathjax-setup.js"></script> <script src="/assets/js/tooltips-setup.js?v=fe487e99db6c43751e6e7bdb2d6a0611"></script> <script src="/assets/js/no_defer.js?v=53b1b1a645525975c963ce8bf8bfefcf"></script> <script defer src="/assets/js/common.js?v=87baac90f765f2f3362dcf6aaf312a8a"></script> <script defer src="/assets/js/copy_code.js?v=c8a01c11a92744d44b093fc3bda915df" type="text/javascript"></script> <script defer src="/assets/js/jupyter_new_tab.js?v=896d254890d9b47f0281f63bfccf0dee"></script> <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script> <script async src="https://badge.dimensions.ai/badge.js"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.1.0/dist/medium-zoom.min.js" integrity="sha256-ZgMyDAIYDYGxbcpJcfUnYwNevG/xi9OHKaR/8GK+jWc=" crossorigin="anonymous"></script> <script defer src="/assets/al_img_tools/js/zoom.js"></script> <script defer src="/assets/js/progress-bar.js?v=499464c5c63ced6cf7ad62509f1e2610" type="text/javascript"></script> <script src="https://cdn.jsdelivr.net/npm/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js" integrity="sha256-uMJJ3EoTyfRBoTbR+lrfu1uRQ87RZG8AR3cVNuQVeFg=" crossorigin="anonymous"></script> <script>
+    addBackToTop();
+  </script> <script type="module" src="/assets/al_search/js/search/ninja-keys.min.js"></script> <ninja-keys hidebreadcrumbs noautoloadmdicons placeholder="Type to start searching"></ninja-keys> <script src="/assets/al_search/js/search-setup.js"></script> <script>
+// get the ninja-keys element
+const ninja = document.querySelector('ninja-keys');
+
+// add the home and posts menu items
+ninja.data = [{
+    id: "nav-about",
+    title: "about",
+    section: "Navigation",
+    handler: () => {
+      window.location.href = "/";
+    },
+  },{id: "nav-publications",
+          title: "publications",
+          description: "Peer-reviewed articles, chapters, talks, and conference abstracts, in reverse chronological order.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
+          },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "Research programmes and interdisciplinary collaborations.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-teaching",
+          title: "teaching",
+          description: "Courses, mentorship, and guest lectures.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "Appointments, education, teaching, awards, and technical skills. The PDF is generated automatically from _data/cv.yml.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "post-google-gemini-updates-flash-1-5-gemma-2-and-project-astra",
+        
+          title: 'Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/", "_blank");
+          
+        },
+      },{id: "post-displaying-external-posts-on-your-al-folio-blog",
+        
+          title: 'Displaying External Posts on Your al-folio Blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
+          
+        },
+      },{id: "projects-closed-loop-tms-emg",
+          title: 'Closed-loop TMS–EMG',
+          description: "Building a low-latency, self-initiated brain stimulation setup — and using it to make people disown their own movements.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/closed-loop-tms-emg/";
+            },},{id: "projects-moral-ai-manuscript-feedback",
+          title: 'Moral AI manuscript feedback',
+          description: "Technical and social review of a book-length treatment of large language models and reinforcement learning agents.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/moral-ai/";
+            },},{id: "projects-psilocybin-microdosing",
+          title: 'Psilocybin microdosing',
+          description: "Navigating the legal and institutional machinery required to run a Schedule I drug study in healthy volunteers.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/psilocybin-microdosing/";
+            },},{id: "teachings-formal-methods-for-ai-ethics-and-society",
+          title: 'Formal Methods for AI, Ethics, and Society',
+          description: "Logic, formal reasoning, and quantitative methods applied to questions about AI systems and their governance.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/formal-methods-for-ai-ethics-and-society/";
+            },},{id: "teachings-foundations-of-ppe-reasons-and-methods",
+          title: 'Foundations of PPE: Reasons and Methods',
+          description: "The methodological toolkit shared across philosophy, politics, and economics, and what each discipline means by a good reason.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/foundations-of-ppe-reasons-and-methods/";
+            },},{id: "teachings-fundamentals-of-ai-data-and-algorithms",
+          title: 'Fundamentals of AI, Data, and Algorithms',
+          description: "How contemporary AI systems actually work — data, learning algorithms, and the assumptions built into them — for students arriving from philosophy and the social sciences.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/fundamentals-of-ai-data-and-algorithms/";
+            },},{
+        id: 'social-cv',
+        title: 'CV',
+        section: 'Socials',
+        handler: () => {
+          window.open("/assets/rendercv/rendercv_output/Alice_Wong_CV.pdf", "_blank");
+        },
+      },{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%61%6C%69%63%65%73%6D%77@%68%6B%75.%68%6B", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/alicesmwong", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/alicesmw", "_blank");
+        },
+      },{
+        id: 'social-rss',
+        title: 'RSS Feed',
+        section: 'Socials',
+        handler: () => {
+          window.open("/feed.xml", "_blank");
+        },
+      },{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
+
+</script> <script src="/assets/al_search/js/shortcut-key.js"></script> </body> </html>
