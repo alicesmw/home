@@ -1,6 +1,6 @@
 ---
 layout: course
-title: Formal Methods for AI, Ethics, and Society
+title: Formal Methods for AI, Ethics, and Society (PHIL7010)
 description: Logic, formal reasoning, and quantitative methods applied to questions about AI systems and their governance.
 instructor: Alice Wong (co-taught)
 year: 2025

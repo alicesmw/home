@@ -1,6 +1,6 @@
 ---
 layout: course
-title: Fundamentals of AI, Data, and Algorithms
+title: Fundamentals of AI, Data, and Algorithms (PHIL7001)
 description: How contemporary AI systems actually work — data, learning algorithms, and the assumptions built into them — for students arriving from philosophy and the social sciences.
 instructor: Alice Wong (co-taught)
 year: 2025

@@ -5,7 +5,7 @@ permalink: /projects/
 description: Research programmes and interdisciplinary collaborations.
 nav: true
 nav_order: 2
-display_categories: [research, collaboration]
+display_categories: [research]
 horizontal: false
 ---
 
