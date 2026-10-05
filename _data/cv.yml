@@ -168,14 +168,6 @@ cv:
         awarder: Usona Institute
 
     Interdisciplinary Projects:
-      - name: Moral AI manuscript feedback
-        start_date: 2023
-        end_date: 2023
-        summary: >-
-          Critiqued and offered comments on the technical and social aspects of large language models and
-          reinforcement learning agents for the forthcoming book "Moral AI and How We Get There" by Jana Schaich
-          Borg, Walter Sinnott-Armstrong, and Vincent Conitzer.
-
       - name: Psilocybin microdosing in healthy volunteers
         start_date: 2019
         end_date: 2021
