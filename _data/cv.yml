@@ -1,0 +1,308 @@
+cv:
+  name: Alice Wong
+  label: Assistant Lecturer, Department of Philosophy, The University of Hong Kong
+  email: alicesmw@hku.hk
+  location: Hong Kong SAR
+  image: ""
+  summary: >-
+    Ph.D. computational scientist working at the intersection of cognitive neuroscience, philosophy of mind, and
+    machine learning. My research probes the boundaries of human agency — how actions are initiated, when we
+    experience them as our own, and what that tells us about biological versus machine computation.
+
+  social_networks:
+    - network: LinkedIn
+      username: alicesmwong
+
+  sections:
+    Education:
+      - institution: Chapman University
+        location: Orange, California, USA
+        area: Computational and Data Sciences
+        studyType: PhD
+        start_date: 2017
+        end_date: 2022
+        highlights:
+          - "Dissertation: Probing the boundaries of human agency (December 2022)."
+
+      - institution: University of California, Los Angeles (UCLA)
+        location: Los Angeles, California, USA
+        area: Psychology
+        studyType: BA
+        start_date: 2012
+        end_date: 2016
+        highlights:
+          - Minor in Cognitive Science.
+          - Specialization in Computing.
+
+    Academic Appointments:
+      - company: The University of Hong Kong
+        position: Assistant Lecturer
+        location: Hong Kong SAR
+        start_date: 2025
+        end_date: present
+        summary: Department of Philosophy.
+
+      - company: Chapman University
+        position: Postdoctoral Fellow
+        location: Orange, California, USA
+        start_date: 2023
+        end_date: 2024
+        summary: Institute for Interdisciplinary and Behavioral Sciences.
+
+      - company: Chapman University
+        position: Graduate Research Assistant II
+        location: Orange, California, USA
+        start_date: 2020
+        end_date: 2022
+        summary: Institute for Interdisciplinary and Behavioral Sciences.
+
+      - company: Chapman University
+        position: Graduate Course Assistant
+        location: Orange, California, USA
+        start_date: 2020
+        end_date: 2021
+        summary: Crean College of Health and Behavioral Sciences, Psychology.
+
+      - company: Chapman University
+        position: Graduate Research Assistant I
+        location: Orange, California, USA
+        start_date: 2017
+        end_date: 2020
+        summary: Institute for Interdisciplinary and Behavioral Sciences.
+
+    Teaching and Mentorship:
+      - name: Teaching Assistant, The University of Hong Kong
+        start_date: 2025
+        end_date: 2026
+        summary: Two taught-postgraduate MA programmes — AI, Ethics, and Society; and Philosophy, Politics, and Economics.
+        highlights:
+          - "Co-taught three courses: Fundamentals of AI, Data, and Algorithms; Formal Methods for AI, Ethics, and Society; and Foundations of PPE — Reasons and Methods."
+          - Led two sections across the two programmes.
+
+      - name: Research Mentoring, HKU Common Core
+        start_date: 2025
+        end_date: 2025
+        highlights:
+          - Co-facilitated research internships for 12 undergraduates conducting qualitative interviews on the use of generative AI in higher education.
+
+      - name: Mentoring and Training, Chapman University
+        start_date: 2022
+        end_date: 2023
+        highlights:
+          - Trained 1 doctoral student, 1 post-baccalaureate research assistant, and 3 undergraduate research assistants on single-pulse TMS protocols.
+
+      - name: Mentoring and Training, Chapman University
+        start_date: 2021
+        end_date: 2021
+        highlights:
+          - Trained 2 post-baccalaureate and 7 undergraduate research assistants on single-pulse TMS protocols.
+          - Trained 1 post-baccalaureate and 8 undergraduate research assistants on EEG protocols.
+
+      - name: Course Assistant and Training, Chapman University
+        start_date: 2020
+        end_date: 2020
+        highlights:
+          - "Assisted with Psychology: Sensation and Perception."
+          - Trained 7 undergraduate research assistants on single-pulse TMS protocols.
+
+      - name: Course Assistant and Training, Chapman University
+        start_date: 2019
+        end_date: 2019
+        highlights:
+          - "Assisted with Psychology: Sensation and Perception."
+          - "Assisted with Honors: Brain, Mind and Film."
+          - Trained 5 undergraduate research assistants on EEG and behavioural protocols.
+
+      - name: Lab Management and Course Assistant, Chapman University
+        start_date: 2018
+        end_date: 2018
+        highlights:
+          - Organised and managed undergraduate and graduate lab sessions and provided administrative grant support.
+          - "Assisted with Psychology: Critical Thinking (two sections) and Psychology of Learning."
+
+    Guest Lectures:
+      - name: Psychedelics and Altered States of Consciousness
+        date: 2022
+        icon: fa-solid fa-chalkboard-user
+
+      - name: "Sensation and Perception: Prosthetic Vision"
+        date: 2020
+        icon: fa-solid fa-chalkboard-user
+
+      - name: "Sensation and Perception: Speech Perception"
+        date: 2019
+        icon: fa-solid fa-chalkboard-user
+
+      - name: "Neuroscience in Education: Can neuroscience inform classroom teaching practices?"
+        date: 2019
+        icon: fa-solid fa-chalkboard-user
+
+      - name: "Psychedelic Microdosing: Historical and current practices"
+        date: 2019
+        icon: fa-solid fa-chalkboard-user
+
+      - name: "Behaviorist Principles of Learning: Conditioning and beyond"
+        date: 2018
+        icon: fa-solid fa-chalkboard-user
+
+    Fellowships and Awards:
+      - title: Schmid Graduate Student Scholarly/Creative Activity Grant
+        date: 2022
+        awarder: Chapman University
+        summary: Awarded twice.
+
+      - title: Early-Career Chen Writing Fellowship
+        date: 2022
+        awarder: Chapman University
+
+      - title: Three Minute Thesis (3MT) competition — 2nd place
+        date: 2022
+        awarder: Western Association of Graduate Schools
+
+      - title: Three Minute Thesis (3MT) competition — 1st place and People's Choice award
+        date: 2021
+        awarder: Chapman University
+
+      - title: Usona Institute Scholarship
+        date: 2021
+        awarder: Usona Institute
+
+    Interdisciplinary Projects:
+      - name: Moral AI manuscript feedback
+        start_date: 2023
+        end_date: 2023
+        summary: >-
+          Critiqued and offered comments on the technical and social aspects of large language models and
+          reinforcement learning agents for the forthcoming book "Moral AI and How We Get There" by Jana Schaich
+          Borg, Walter Sinnott-Armstrong, and Vincent Conitzer.
+
+      - name: Psilocybin microdosing in healthy volunteers
+        start_date: 2019
+        end_date: 2021
+        highlights:
+          - Led a small team of assistants to navigate complex logistical and legal structures in order to obtain approval to conduct research with Schedule I drugs.
+          - Communicated with multiple U.S. state, federal, and institutional stakeholders to identify and address key ethical, legal, and safety issues in the research proposal.
+
+      - name: Creating a low-latency closed-loop TMS-EMG experiment
+        start_date: 2019
+        end_date: 2021
+        highlights:
+          - Worked closely with a biomedical engineer to create a low-latency, real-time, closed-loop, self-initiated non-invasive brain stimulation setup.
+          - Designed the experimental setup, collected data from 60+ participants, and analysed the psychological and physiological signals.
+          - Featured on PBS NOVA.
+
+    Research Methods:
+      - name: Brain stimulation
+        icon: fa-solid fa-bolt
+        keywords: "Transcranial magnetic stimulation (Mag and More), single-pulse TMS protocols, TMS safety"
+
+      - name: Behavioural and psychophysical testing
+        icon: fa-solid fa-clipboard-question
+        keywords: "Qualitative surveys, cognitive testing, psychophysics, Rotter Locus of Control, Likert scales"
+
+      - name: Neural and physiological measurement
+        icon: fa-solid fa-wave-square
+        keywords: "TMS, EEG, EMG, ECG, SpO2"
+
+    Technical Skills:
+      - name: Statistics
+        icon: fa-solid fa-chart-column
+        keywords: "Bayesian and frequentist hypothesis testing, regression, ANOVA, correlation, JASP"
+
+      - name: Machine learning
+        icon: fa-solid fa-microchip
+        keywords: "Python, NumPy, pandas, PyTorch, scikit-learn"
+
+      - name: Signal processing
+        icon: fa-solid fa-signal
+        keywords: "Filtering, feature extraction"
+
+      - name: Data visualisation
+        icon: fa-solid fa-chart-line
+        keywords: "Plotly, Matplotlib, seaborn"
+
+    Workshops Given:
+      - name: Comparing Machine and Biological Computation
+        date: 2026
+        issuer: Philosophy of AI Summer School
+        icon: fa-solid fa-person-chalkboard
+
+      - name: Driving Teaching and Learning through Artificial Intelligence
+        date: 2025
+        issuer: HKU Common Core
+        icon: fa-solid fa-person-chalkboard
+
+    Workshops Attended and Certificates:
+      - name: AHE Teaching Associate Fellowship
+        date: 2025
+        issuer: The University of Hong Kong
+        icon: fa-solid fa-certificate
+
+      - name: Professional Certificate in Teaching and Learning in Higher Education (PCTLHE)
+        date: 2025
+        issuer: The University of Hong Kong
+        icon: fa-solid fa-certificate
+
+      - name: Communication Intensive Courses — Tutor Certificate Course Foundations
+        date: 2025
+        issuer: The University of Hong Kong
+        icon: fa-solid fa-certificate
+
+      - name: Sony Entertainment Technology Showcase Research Showcase
+        date: 2023
+        issuer: Los Angeles
+        icon: fa-solid fa-flask
+
+      - name: Principles of Intelligent Behavior in Biological and Social Systems reading group
+        date: 2023
+        icon: fa-solid fa-book-open
+
+      - name: CIMER Entering Mentoring workshop
+        date: 2023
+        icon: fa-solid fa-users
+
+      - name: TWCF Technical Communication Course
+        date: 2023
+        issuer: Templeton World Charity Foundation
+        icon: fa-solid fa-comments
+
+      - name: Principles of Effective College Teaching
+        date: 2018
+        issuer: Magna Publications
+        icon: fa-solid fa-certificate
+
+      - name: TMS Safety Training Certificate
+        date: 2017
+        issuer: UCLA Brain Mapping Center
+        icon: fa-solid fa-certificate
+
+    Professional Memberships:
+      - name: Society for Neuroscience
+        summary: "2016, 2018, 2022"
+
+      - name: Association for the Scientific Study of Consciousness
+        summary: "2022"
+
+      - name: Western Psychological Association
+        summary: "2018"
+
+    Volunteering:
+      - company: AI Safety Hong Kong
+        position: Community Organiser
+        location: Hong Kong SAR
+        start_date: 2026
+        end_date: present
+        summary: aisafetyhk.org
+        highlights:
+          - Organised a community reading group to raise awareness of contemporary AI safety issues.
+
+      - company: Generocity Hong Kong
+        position: Volunteer
+        location: Hong Kong SAR
+        start_date: 2024
+        end_date: 2024
+        summary: generocity-hk.org
+        highlights:
+          - Expanded, updated, and translated the English and Chinese website.
+          - Coordinated marketing and poster material to showcase organisational goals.
+          - Helped organise the competition awards ceremony.

@@ -1,0 +1,55 @@
+# Co-author name → homepage links. jekyll-scholar matches on the last name (lower case)
+# and the `firstname` variants listed under it, then hyperlinks that author in the
+# bibliography. Add or correct URLs as you like.
+
+"maoz":
+  - firstname: ["Uri", "U."]
+    url: https://www.chapman.edu/our-faculty/uri-maoz
+
+"schurger":
+  - firstname: ["Aaron", "A."]
+    url: https://www.chapman.edu/our-faculty/aaron-schurger
+
+"raz":
+  - firstname: ["Amir", "A."]
+    url: https://www.chapman.edu/our-faculty/amir-raz
+
+"hallett":
+  - firstname: ["Mark", "M."]
+    url: https://www.ninds.nih.gov/
+
+"merholz":
+  - firstname: ["Gideon", "G."]
+
+"tsao":
+  - firstname: ["Jacky", "J."]
+
+"lan":
+  - firstname: ["Tonghe", "T."]
+
+"wu":
+  - firstname: ["Dong-An", "D.-A.", "D."]
+
+"oliver":
+  - firstname: ["A."]
+
+"lee":
+  - firstname: ["S. J."]
+
+"liang":
+  - firstname: ["C. X."]
+
+"nogues":
+  - firstname: ["C."]
+
+"samad":
+  - firstname: ["M."]
+
+"ziari":
+  - firstname: ["N."]
+
+"zhang":
+  - firstname: ["X."]
+
+"chen":
+  - firstname: ["E."]

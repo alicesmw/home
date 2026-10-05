@@ -1,0 +1,41 @@
+# Badge colours and links for the `abbr` field of each bibliography entry.
+
+"Sci. Rep.":
+  url: https://www.nature.com/srep/
+  color: "#006699"
+
+"AI & SOC":
+  url: https://link.springer.com/journal/146
+  color: "#2b5797"
+
+"Transcult. Psych.":
+  url: https://journals.sagepub.com/home/tps
+  color: "#8c3a5b"
+
+"Psych. Consc.":
+  url: https://www.apa.org/pubs/journals/cns
+  color: "#4a6741"
+
+"OUP":
+  url: https://global.oup.com/academic/
+  color: "#002147"
+
+"Thesis":
+  color: "#5c5c5c"
+
+"In prep.":
+  color: "#a15c00"
+
+"Talk":
+  color: "#3f6184"
+
+"SfN":
+  url: https://www.sfn.org/
+  color: "#7a3b8f"
+
+"WPA":
+  url: https://westernpsych.org/
+  color: "#7a3b8f"
+
+"ICNFW":
+  color: "#7a3b8f"

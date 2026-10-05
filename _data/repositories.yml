@@ -1,0 +1,9 @@
+github_users:
+  - alicesmw
+
+repo_description_lines_max: 2
+
+# Add your own repositories here to show cards for them, for example:
+# github_repos:
+#   - alicesmw/home
+github_repos:
